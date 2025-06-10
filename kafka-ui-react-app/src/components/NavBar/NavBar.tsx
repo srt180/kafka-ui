@@ -69,7 +69,7 @@ const NavBar: React.FC<Props> = ({ onBurgerClick }) => {
 
           <S.Hyperlink to="/">
             <Logo />
-            UI for Apache Kafka
+            Digitsec数据通道平台
           </S.Hyperlink>
 
           <S.NavbarItem>

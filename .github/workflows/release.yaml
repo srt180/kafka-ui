@@ -79,8 +79,8 @@ jobs:
           registry: registry.cn-hangzhou.aliyuncs.com
           push: true
           tags: |
-            provectuslabs/kafka-ui:${{ steps.build.outputs.version }}
-            provectuslabs/kafka-ui:latest
+            jrizju/kafka-ui:${{ steps.build.outputs.version }}
+            jrizju/kafka-ui:latest
           build-args: |
             JAR_FILE=kafka-ui-api-${{ steps.build.outputs.version }}.jar
           cache-from: type=local,src=/tmp/.buildx-cache

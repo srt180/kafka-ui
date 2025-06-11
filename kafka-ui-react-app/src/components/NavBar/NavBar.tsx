@@ -69,7 +69,7 @@ const NavBar: React.FC<Props> = ({ onBurgerClick }) => {
 
           <S.Hyperlink to="/">
             <Logo />
-            Digitsec数据通道平台
+            直播监管系统-数据采集-数据传输
           </S.Hyperlink>
 
           <S.NavbarItem>
